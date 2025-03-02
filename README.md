@@ -4,7 +4,7 @@ This is a list of all the steps taken to publish a package to npm.
 
 ## Steps
 
-Following steps from this URL: https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages
+Following steps from this URL: https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
 
 Firstly, run:
 
