@@ -21,3 +21,32 @@ then, after completing the browser challenge, finally run:
 And it is done!
 
 Wow, that is so cool: https://www.npmjs.com/package/@davidthornton/hello-world we are live!
+
+
+## Using @davidthornton/hello-world
+
+In a separate directory, run:
+
+    npm i @davidthornton/hello-world
+
+Then convert the default `package.json` file into an ES module by specifying
+
+    {
+        ...
+        "type": "module"
+        ...
+    }
+
+and create an `index.js` file as follows
+
+    import helloworld from '@davidthornton/hello-world';
+
+    helloworld.printMsg()
+
+then run:
+
+    node index.js
+
+and voilà ! We get back:
+
+    Hello, World!
