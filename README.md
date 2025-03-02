@@ -14,7 +14,7 @@ Then, create the `index.js` file, and sign in:
 
     npm adduser
 
-then, after completing the browser challenge, finally run:
+then, after completing the browser passkey challenge, finally run:
 
     npm publish --access public
 
